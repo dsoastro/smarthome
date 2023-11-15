@@ -2,6 +2,8 @@
 
 A python telegram bot to monitor country house (_dacha_) temperature, movement inside, water leaks, etc. I use two raspberries to monitor the house: one with movement, sound and temperature sensors connected to it and the other listening to zigbee devices (aqara) via usb dongle.
 
+The code in this repo is subject to GPL v2 license terms.
+
 ## Sensors directly connected to raspberry (_base_ app variant)
 The app provides for up to three movement sensors. Connection pins are set in gpio.py (`pin_back`, `pin_f1`, `pin_f2`). Sound sensor is connected to `pin_sound`.
 
